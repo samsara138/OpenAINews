@@ -1,0 +1,42 @@
+{
+  "OpenAI": {
+    "TargetLanguage": "English",
+    "ModelSettings": {
+      "temperature": 0.7,
+      "max_tokens": 500
+    }
+  },
+  "NewsAPI": {
+    "Sources": {
+      "Categories": [],
+      "Languages": [
+        "en",
+        "zh"
+      ],
+      "Countries": [
+        "us",
+        "ca"
+      ]
+    },
+    "Keywords": [
+      "Victoria BC",
+      "China"
+    ],
+    "NewsCount": {
+      "HeadlineCounts": 5,
+      "GeneralCounts": 3
+    }
+  },
+  "FrontEnd": {
+    "Colors": {
+      "BackgroundColor": "#E1EEDD",
+      "BoxColor": "#4272f5",
+      "HeaderColor": "#cc0808",
+      "TextColor": "#183A1D"
+    },
+    "Fonts": {
+      "HeaderFont": "Georgia, 'Times New Roman', Times, serif",
+      "TextFont": ""
+    }
+  }
+}
